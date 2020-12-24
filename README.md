@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# 常見功能實作
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+利用以下工具，實作常見功能。
 
-## Available Scripts
+- React Hook
+- React-Router
+- Redux
+- Material-UI
+- styled-components
 
-In the project directory, you can run:
+![](http://g.recordit.co/kP975do4Ww.gif)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 功能
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 留言板
 
-### `npm test`
+藉由 React、React Hook 開發畫面及功能，利用 React-Redux 管理狀態，提供使用者
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 新增留言
+- 刪除留言
+- 回覆留言
 
-### `npm run build`
+留言數量超過限制的尺寸後，可滾動卷軸移動畫面。
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](http://g.recordit.co/Qp41dwbx2E.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 檢視訊息
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+點擊列表訊息後呈現訊息，利用 React-Router 切換畫面。
 
-### `npm run eject`
+![](http://g.recordit.co/bgbQKPfHjc.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 圖片上傳功能
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+點擊 `上傳圖片` 後可選擇圖片，確認後會顯示完整檔案名稱以及預覽圖。
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](http://g.recordit.co/VIHmeHkioS.gif)
