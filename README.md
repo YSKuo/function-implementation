@@ -1,5 +1,7 @@
 # 常見功能實作
 
+Demo: https://yskuo.github.io/function-implementation/#/
+
 利用以下工具，實作常見功能。
 
 - React Hook
